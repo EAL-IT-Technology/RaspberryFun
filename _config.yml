@@ -1,0 +1,13 @@
+# Site settings
+title: Raspberry fun
+email: your-email@domain.com
+description: "Project site for raspberry pi student introduction project"
+baseurl: "/RaspberryFun"
+#url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username:  moozer
+github_projectname: RaspberryFun
+
+# Build settings
+markdown: kramdown
+permalink: pretty

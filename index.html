@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+title: Welcome
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <title>Raspberryfun by moozer</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Raspberryfun</h1>
-        <h2>Project site for raspberry pi student introduction project</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/moozer/RaspberryFun/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/moozer/RaspberryFun/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/moozer/RaspberryFun" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+<div class="home">
 
     <div class="container">
       <section id="main_content">
@@ -32,6 +11,18 @@
       </section>
     </div>
 
-    
-  </body>
-</html>
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
