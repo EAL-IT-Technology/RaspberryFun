@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Welcome
 ---
 
@@ -11,15 +11,15 @@ It includes references or hosts schecmatics for support boards, minimal python c
 
 The navigation bar includes
 
-* [Design]({{ site.url }}/design)
+* [Design]({{ site.baseurl }}/design)
 
     High level design of the robot system we are building
   
-* [Hardware]({{ site.url }}/hardware)
+* [Hardware]({{ site.baseurl }}/hardware)
   
     An introduction to the raspberry pi, the IO interfaces and the schematics for connecting buttons, light sensors and motor driver.
   
 
-* [code]({{ site.url }}/code)
+* [Code]({{ site.baseurl }}/code)
 
     The python code used to connect to the raspberry, use the IO interfaces and boards.
