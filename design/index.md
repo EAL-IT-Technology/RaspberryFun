@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: page
 ---
 
 
-# Introduction
+## Introduction
 
-The introductory project for first semester IT technology is designed to give the student the opportunity to work with the ideas, methods and technology that will be used during the education. 
-One goal for the project is for the student to know if this education for for them and if so, which specialization that appeals to them.
-The technical goal for the project is to create a robot system, that is able to follow a line or other guides. The specific will be decided later.
+This introductory project is designed to give the student the opportunity to work with the ideas, methods and technology related to networking and electronics.
 
-# Network overview
+The technical goal for the project is to create a robot system, that is able to follow a line or other guides. 
+
+## Network overview
 
 The main part of the system is the raspberry pi. It is a simple ARM-based computer running Linux. 
 
@@ -28,11 +28,11 @@ The student will write their own programs to improve the web interface a the com
 For the robot to function, the raspberry will use the digital IO ports to control and read a light sensor, a button module and a driver board. Some of these schematics will be available beforehand.
 Optionally, it will be possible to create a board with a port expander which, through I2C, is able to control more digital IO ports.
 
-# Performance
+## Performance
 
 No special perfomance requirements.
 
-# Hardware
+## Hardware
 
 For each group
 
@@ -51,9 +51,9 @@ In general
 * Ethernet cables for debugging
 
 
-#  Protocols and standards
+##  Protocols and standards
 
-## Wireless LAN - 802.11b/g/n
+### Wireless LAN - 802.11b/g/n
 
 Wifi, or 802.11 b/g/n/ac is a standard for wireless communication as defined by IEEE. 
 See http://standards.ieee.org/about/get/802/802.11.html 
@@ -61,13 +61,13 @@ See http://standards.ieee.org/about/get/802/802.11.html
 This is the common wireless standard usable by most wireless laptops, smartphones and such.
 
 
-## I2C
+### I2C
 
 I2C is a simple master/slave serial bus. It is widely used for inter-chip communication at low speeds. 
 See http://i2c.info/i2c-bus-specification 
 
 
-# IP layout and VLAN layout
+## IP layout and VLAN layout
 
 The class network as served by the router/AP.
 
@@ -78,7 +78,7 @@ The class network as served by the router/AP.
 
 VLANs are not used.
 
-# Naming convention
+## Naming convention
 
 Raspberries will be called Raspberry01, Raspberry02, and so on, where the number reflects the group number. This is the name that will appear in the dhcp lease file in the router/AP.
 
