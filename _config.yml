@@ -11,3 +11,9 @@ github_projectname: RaspberryFun
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sections:
+- { title: Design, path: /design }
+- { title: Hardware, path: /hardware }
+- { title: Code, path: /code }
+
