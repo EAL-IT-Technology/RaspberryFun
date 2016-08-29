@@ -2,5 +2,4 @@
 layout: page
 ---
 
-soon, some schematics, links components name and all sort of other goodies will appear here :-)
-
+Notes on installing the raspberry for use in this project is [here](installing_raspberry.md).
