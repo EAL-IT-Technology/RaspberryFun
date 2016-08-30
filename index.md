@@ -11,9 +11,13 @@ It includes references or hosts schecmatics for support boards, minimal python c
 
 The navigation bar includes
 
-* [Design]({{ site.baseurl }}/Design)
+* [Design]({{ site.baseurl }}/design)
 
     High level design of the robot system we are building
+  
+* [Raspberry pi]({{ site.baseurl }}/raspberry)
+
+    Installation notes and other relevant Raspberry material
   
 * [Hardware]({{ site.baseurl }}/Hardware)
   
