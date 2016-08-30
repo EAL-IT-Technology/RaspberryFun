@@ -5,8 +5,14 @@ title: Raspberry
 
 In the project we use a raspberry for the control part.
 
+Basic installation
+--------------------
+
 We use raspbarian that is officially supported. Go [here](installing_raspberry.html) for notes.
 
+
+GPIO
+------
 
 The raspberry has IO ports that we will use. The specific layout for the GPIO differs depending on the specific version of the raspberry.
 
