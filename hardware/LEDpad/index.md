@@ -14,10 +14,16 @@ The LED pad consists of the following components:
 
 The schematic of the LED pad is illustrated to the left below. Note, that additional LEDs can be connected in parallel as illustrated in the picture to the right. This is useful for testing more than one GPIO from the Raspberry Pi.
 
-| Single LED        | Three LEDs in parallel |
-|:-----------------:|:----------------------:|
-|![Single LED][Sch_Single]|![Parallel LEDs][Sch_Parallel]|
+| Single LED        |   | Three LEDs in parallel |
+|:-----------------:|---|:----------------------:|
+|![Single LED][Sch_Single]|   |![Parallel LEDs][Sch_Parallel]|
 
-[Sch_Single]: pics/LED_Circuit_Simple.png
-[Sch_Parallel]: pics/LED_Circuit_Many_LEDs.png
+[Sch_Single]: pics/LED_Circuit_Simple.png "Single LED"
+[Sch_Parallel]: pics/LED_Circuit_Many_LEDs.png "LEDs mounted in parallel"
 
+This following guide describes a circuit with three LEDs, but the circuit can easily be extented with more LEDs.
+
+### Veroboard
+First, cut a piece of veroboard. The size of the veroboard is not crusial, just make sure there is enought space for the wanted number of LEDs. The pictures shows a veroboard of size 17x11 holes. 
+
+![The used veroboard](pics/IMG_20160902_221739.jpg "The used Veroboard")
