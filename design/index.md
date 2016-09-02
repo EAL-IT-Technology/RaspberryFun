@@ -25,8 +25,10 @@ The raspberry will connect to a dedicated LAN set up for that specific purpose. 
 On the inside of the raspberry pi, Linux is running. There will be libraries available to interface to external devices and to build a rudimentary web interface1.
 The student will write their own programs to improve the web interface a the command line control script.
 
-For the robot to function, the raspberry will use the digital IO ports to control and read a light sensor, a button module and a driver board. Some of these schematics will be available beforehand.
-Optionally, it will be possible to create a board with a port expander which, through I2C, is able to control more digital IO ports.
+For the robot to function, the raspberry will use the digital IO ports to control and read a light sensor, a button module and a driver board. Some of these schematics will be available 
+beforehand.
+Optionally, it will be possible to create a board with a port expander which, through I2C, is able to control more digital IO ports. Other expansions on the robot are possible also, e.g.
+custom hardware, programming and external USB devices.
 
 ## Performance
 
@@ -43,7 +45,7 @@ For each group
 * driver board
 * 1 LED sensor board
 * Contact sensor board
-* Optional: port expander
+* Optional: port expander, USB devices or other
 
 In general
 
@@ -71,15 +73,18 @@ See http://i2c.info/i2c-bus-specification
 
 The class network as served by the router/AP.
 
-* ip range 192.168.1.0/24
-* gateway 192.168.1.1
+* IP range 192.168.1.0/24
+* Gateway 192.168.1.1
 * DNS 192.168.1.1
-* DHCP will serve 192.168.1.50-250
+* DHCP will serve 192.168.1.100-200
 
-VLANs are not used.
+VLANs are not used on the subnet.
+
+If multiple access points are used, the second will have the addres 192.168.2.0/24 and so on.
 
 ## Naming convention
 
-Raspberries will be called Raspberry01, Raspberry02, and so on, where the number reflects the group number. This is the name that will appear in the dhcp lease file in the router/AP.
+Raspberries will be called Raspberry01, Raspberry02, and so on, where the number reflects the group number. This is the name that will appear in the dhcp lease file in the router/AP. 
+Since DNS is enabled, it will be the name used for acces instead of the IP address.
 
 Other names are decided by e.g. kernel drivers.
