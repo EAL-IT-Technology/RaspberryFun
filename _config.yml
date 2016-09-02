@@ -1,19 +1,24 @@
 # Site settings
 title: Raspberry fun
-email: your-email@domain.com
+#email: your-email@domain.com
 description: "Project site for raspberry pi student introduction project"
 baseurl: "/RaspberryFun"
 #url: "http://yourdomain.com"
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  moozer
 github_projectname: RaspberryFun
+
+exclude:      ["readme.md", "Gemfile*"]
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+# github default
+safe: true
 
 sections:
 - { title: Design, path: /design }
 - { title: Hardware, path: /hardware }
 - { title: Code, path: /code }
+- { title: Raspberry, path: /raspberry }
 
