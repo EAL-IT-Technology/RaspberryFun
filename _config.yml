@@ -12,7 +12,7 @@ exclude:      ["readme.md", "Gemfile*"]
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 # github default
 safe: true
 
