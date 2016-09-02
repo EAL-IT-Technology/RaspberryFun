@@ -26,5 +26,8 @@ This following guide describes a circuit with three LEDs, but the circuit can ea
 ### Veroboard
 First, cut a piece of veroboard. The size of the veroboard is not crusial, just make sure there is enought space for the wanted number of LEDs. The pictures shows a veroboard of size 17x11 holes. 
 
-<img src="pics/IMG_20160902_221739.jpg" alt="The used veroboard" width="200" />
+| Veroboard from front | Veroboard seen from the back|
+|:--------------------:|:---------------------------:|
+|<img src="pics/IMG_20160902_221739.jpg" alt="The used veroboard" width="400" />|<img src="pics/IMG_20160902_222211.jpg" alt="Veroboard seen from back" width="400" /> |
+
 
