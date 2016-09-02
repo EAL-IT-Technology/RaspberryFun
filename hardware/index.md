@@ -1,8 +1,8 @@
 ---
 layout: page
+title: Making the hardware
 ---
 
-## Making the hardware
 This page describes the electronic hardware that is constructed and built during the Raspberry Fun Robot project.
 
 * Built instruction to the LED test pad can be found [here]({{ site.baseurl }}/hardware/LEDpad).
