@@ -5,7 +5,7 @@ layout: page
 ## Making the hardware
 This page describes the electronic hardware that is constructed and built during the Raspberry Fun Robot project.
 
-* Built instruction to the LED test pad can be found [here](LEDpad).
+* Built instruction to the LED test pad can be found [here](/LEDpad).
 * ~~Built instructions to the L293d motor driver can be found here.~~
 * ~~Built instructions to the line sensor module can be found here.~~
 
