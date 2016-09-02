@@ -6,8 +6,18 @@ This page describes, with text and pictures, the LED pad which is useful for tes
 
 The LED pad consists of the following components:
 
-* 180 <dl>&Omega;</dl>
+* 180 &Omega;
 * Light Emitting Diode (LED)
-* Wires
 * A piece of veroboard
+* Wires
+* Connectors and heat-shrink tubing
+
+The schematic of the LED pad is illustrated to the left below. Note, that additional LEDs can be connected in parallel as illustrated in the picture to the right. This is useful for testing more than one GPIO from the Raspberry Pi.
+
+| Single LED  | Three LEDs in parallel |
+|-------------|------------------------|
+|![Single LED][Sch_Single]|![Parallel LEDs][Sch_Parallel]|
+
+[Sch_Single]: pics/LED_Circuit_Simple.png
+[Sch_Parallel]: pics/LED_Circuit_Many_LEDs.png
 
