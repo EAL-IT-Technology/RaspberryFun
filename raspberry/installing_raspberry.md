@@ -10,3 +10,33 @@ The official installation instructions are found [here](https://www.raspberrypi.
 Start by downloading the latest [Raspbian Jessie](https://downloads.raspberrypi.org/raspbian_latest), and then follow the installation instructions from the official guide.
 
 
+Some post-installation steps are needed
+
+1. Refresh the packages
+
+'''
+sudo apt-get update
+sudo apt-get upgrade
+'''
+
+2. Change the hostname
+
+'''
+sudo nano /etc/hostname
+'''
+
+change it to `raspberryXX`, where XX is your groupnumber
+
+3. Change your password
+
+'''
+passwd
+'''
+
+(notice that we are *not* using `sudo` for this)
+
+4. Reboot
+
+'''
+sudo reboot
+'''
