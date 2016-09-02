@@ -14,8 +14,8 @@ The LED pad consists of the following components:
 
 The schematic of the LED pad is illustrated to the left below. Note, that additional LEDs can be connected in parallel as illustrated in the picture to the right. This is useful for testing more than one GPIO from the Raspberry Pi.
 
-| Single LED  | Three LEDs in parallel |
-|-------------|------------------------|
+| Single LED        | Three LEDs in parallel |
+|:-----------------:|:----------------------:|
 |![Single LED][Sch_Single]|![Parallel LEDs][Sch_Parallel]|
 
 [Sch_Single]: pics/LED_Circuit_Simple.png
