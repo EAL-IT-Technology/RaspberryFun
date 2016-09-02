@@ -19,11 +19,11 @@ The navigation bar includes
 
     Installation notes and other relevant Raspberry material
   
-* [Hardware]({{ site.baseurl }}/Hardware)
+* [Hardware]({{ site.baseurl }}/hardware)
   
     An introduction to the raspberry pi, the IO interfaces and the schematics for connecting buttons, light sensors and motor driver.
   
 
-* [Code]({{ site.baseurl }}/Code)
+* [Code]({{ site.baseurl }}/code)
 
     The python code used to connect to the raspberry, use the IO interfaces and boards.
