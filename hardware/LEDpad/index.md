@@ -42,9 +42,39 @@ __Second__, Mount the components as illustrated on the pictures below. Solder th
 __NOTE: The LED shall be properly oriented. The long connector is anode (+) and short connector is catode (-). Mount the long connector of the LED to the resistor. The other side of the resistor will be attached to the GPIO pin of the Raspberry Pi. The resistor cannot be mounted wrong.__
 ![LED pins](pics/Lysdiode-benforbindelse.png "LED Pinout")
 
+Mount wires between the catode (-) of all the LEDs as illustrated on the picture below. The catode (or minus) will be common for the LEDs, which is also illustrated in the schematic on top of the page.
+
+![Commond catode](pics/IMG_20160903_022451.jpg "Catode connected on all the LEDs")
+
 ### Wires
 __Third__, prepare wires to be mounted on the veroboard. Solder connectors to the wires. Make the wires extra safe by covering the connectors by heat-srinking tubes for protecting the Raspberry Pi against short circuits etc. See illustrations below.
 
-| Prepare four wires for the LED pad |  |
+| Prepare four wires for the LED pad | Connectors covered with head-shrinking tube |
 |:-------------------------------:|:-------------------------------:|
-|<img src="pics/IMG_20160902_224823.jpg" alt="Wires with connectors" rotate="90" width="400" />|<img src="pics/IMG_20160902_225504.jpg" alt="Connectors covered by heat-shrinking tube" rotate="90" width="400" /> |
+|<img src="pics/IMG_20160902_224823.jpg" alt="Wires with connectors" width="400" />|<img src="pics/IMG_20160902_225504.jpg" alt="Connectors covered by heat-shrinking tube" width="400" /> |
+
+Mount the four wires on the veroboard to the copper lanes with the resistors and the copperlane with the common catode (-) of the LEDs. 
+
+### The result
+The LED pad look should similar to the picture below. Each LED can be tested by attaching the wire connected to the common catode (-) (blue wire on the picture) to minus on a power supply (or battery), and the wires from the resistors (green wires on the picture) to plus on a power supply (or battery). Use either a powersupply adjusted to approx 3.3V or two 1.5V batteries connected in series, for testing.
+
+![The result](pics/IMG_20160903_023344.jpg "The LED pad with three LEDs mounted")
+
+### Connecting to the Raspberry Pi 
+__Forth__, connect the LED pad to the Raspberry Pi. Attach the wire from the common connected LED copper lane (-) to GND on the RPi (Lookup the pinout on the Internet). Connect each of the wires to any GPIO on the Raspberry Pi (again, lookup the RPi pinout on the Internet). Modify and run the testprogram and see if the LEDs light up as expected. 
+
+
+| The LED pad connected to the Raspberry Pi | Let there be light! |
+|:-------------------------------:|:-------------------------------:|
+|<img src="pics/IMG_20160902_231728.jpg" alt="LED pad connected to the RPi" width="400" />|<img src="pics/IMG_20160902_231910.jpg" alt="And the LEDs are working!" width="400" /> |
+
+### If the LED pad is not working
+* Are the LEDs orientated correctly? 
+* Are the LEDs and resistors mounted properly as described in the schematic.
+* Compare the result with the pictures.
+* Check the LEDs with a battery / powersupply.
+* Any short-circuits?
+* Is the LED pad connected to the right Raspberry Pi pins.
+* Check the pins used in the Python script.
+* Ask your classmates for help.
+* ... 
