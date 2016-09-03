@@ -44,7 +44,7 @@ __NOTE: The LED shall be properly oriented. The long connector is anode (+) and 
 
 Mount wires between the catode (-) of all the LEDs as illustrated on the picture below. The catode (or minus) will be common for the LEDs, which is also illustrated in the schematic on top of the page.
 
-![Commond catode](pics/IMG_20160903_022451.jpg "Catode connected on all the LEDs")
+<img src="pics/IMG_20160903_022451.jpg" alt="All LEDs commonly catode connected" width="400" />
 
 ### Wires
 __Third__, prepare wires to be mounted on the veroboard. Solder connectors to the wires. Make the wires extra safe by covering the connectors by heat-srinking tubes for protecting the Raspberry Pi against short circuits etc. See illustrations below.
@@ -58,7 +58,7 @@ Mount the four wires on the veroboard to the copper lanes with the resistors and
 ### The result
 The LED pad look should similar to the picture below. Each LED can be tested by attaching the wire connected to the common catode (-) (blue wire on the picture) to minus on a power supply (or battery), and the wires from the resistors (green wires on the picture) to plus on a power supply (or battery). Use either a powersupply adjusted to approx 3.3V or two 1.5V batteries connected in series, for testing.
 
-![The result](pics/IMG_20160903_023344.jpg "The LED pad with three LEDs mounted")
+<img src="pics/IMG_20160903_023344.jpg" alt="The LED pad with three LEDs mounted" width="400" />
 
 ### Connecting to the Raspberry Pi 
 __Forth__, connect the LED pad to the Raspberry Pi. Attach the wire from the common connected LED copper lane (-) to GND on the RPi (Lookup the pinout on the Internet). Connect each of the wires to any GPIO on the Raspberry Pi (again, lookup the RPi pinout on the Internet). Modify and run the testprogram and see if the LEDs light up as expected. 
