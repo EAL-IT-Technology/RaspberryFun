@@ -39,7 +39,6 @@ __Second__, Mount the components as illustrated on the pictures below. Solder th
 |:-------------------------------:|:-------------------------------:|
 |<img src="pics/IMG_20160902_222758.jpg" alt="Component side" width="400" />|<img src="pics/IMG_20160902_223816.jpg" alt="Soldering side" width="400" /> |
 
-`__NOTE__ The LED shall be properly oriented. The long connector is anode (+) and short connector is catode (-). Mount the long connector of the LED to the resistor. The other side of the resistor will be attached to the GPIO pin of the Raspberry Pi. 
-The resistor cannot be mounted wrong.
-![LED pins](pics/Lysdiode-benforbindelse.png "LED Pinout")`
+__NOTE: The LED shall be properly oriented. The long connector is anode (+) and short connector is catode (-). Mount the long connector of the LED to the resistor. The other side of the resistor will be attached to the GPIO pin of the Raspberry Pi. The resistor cannot be mounted wrong.__
+![LED pins](pics/Lysdiode-benforbindelse.png "LED Pinout")
 
