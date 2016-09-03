@@ -30,7 +30,7 @@ Cut a piece of veroboard. The size of the veroboard is not crusial, just make su
 |:--------------------:|:---------------------------:|
 |<img src="pics/IMG_20160902_221739.jpg" alt="The used veroboard" width="400" />|<img src="pics/IMG_20160902_222211.jpg" alt="Veroboard seen from back" width="400" /> |
 
-It is important to remove the cobber stribes between the pins of the resistor(s) and the LED(s) as illustrated on the image to the right.
+It is important to remove the copper stribes between the pins of the resistor(s) and the LED(s) as illustrated on the image to the right.
 
 ### Mounting the components
 Mount the components as illustrated on the pictures below. Solder the pins to the veroboard.
