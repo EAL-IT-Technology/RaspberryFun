@@ -24,7 +24,7 @@ The schematic of the LED pad is illustrated to the left below. Note, that additi
 This following guide describes a circuit with three LEDs, but the circuit can easily be extented with more LEDs.
 
 ### Veroboard
-__First__, cut a piece of veroboard. The size of the veroboard is not crusial, just make sure there is enought space for the wanted number of LEDs. The pictures shows a veroboard of size 17x11 holes. 
+Cut a piece of veroboard. The size of the veroboard is not crusial, just make sure there is enought space for the wanted number of LEDs. The pictures shows a veroboard of size 17x11 holes. 
 
 | Veroboard from front | Veroboard seen from the back|
 |:--------------------:|:---------------------------:|
@@ -33,7 +33,7 @@ __First__, cut a piece of veroboard. The size of the veroboard is not crusial, j
 It is important to remove the cobber stribes between the pins of the resistor(s) and the LED(s) as illustrated on the image to the right.
 
 ### Mounting the components
-__Second__, Mount the components as illustrated on the pictures below. Solder the pins to the veroboard.
+Mount the components as illustrated on the pictures below. Solder the pins to the veroboard.
 
 | Component side of the veroboard | Soldering side of the veroboard |
 |:-------------------------------:|:-------------------------------:|
@@ -47,7 +47,7 @@ Mount wires between the catode (-) of all the LEDs as illustrated on the picture
 <img src="pics/IMG_20160903_022451.jpg" alt="All LEDs commonly catode connected" width="400" />
 
 ### Wires
-__Third__, prepare wires to be mounted on the veroboard. Solder connectors to the wires. Make the wires extra safe by covering the connectors by heat-srinking tubes for protecting the Raspberry Pi against short circuits etc. See illustrations below.
+Prepare wires to be mounted on the veroboard. Solder connectors to the wires. Make the wires extra safe by covering the connectors by heat-srinking tubes for protecting the Raspberry Pi against short circuits etc. See illustrations below.
 
 | Prepare four wires for the LED pad | Connectors covered with head-shrinking tube |
 |:-------------------------------:|:-------------------------------:|
@@ -61,7 +61,7 @@ The LED pad look should similar to the picture below. Each LED can be tested by 
 <img src="pics/IMG_20160903_023344.jpg" alt="The LED pad with three LEDs mounted" width="400" />
 
 ### Connecting to the Raspberry Pi 
-__Forth__, connect the LED pad to the Raspberry Pi. Attach the wire from the common connected LED copper lane (-) to GND on the RPi (Lookup the pinout on the Internet). Connect each of the wires to any GPIO on the Raspberry Pi (again, lookup the RPi pinout on the Internet). Modify and run the testprogram and see if the LEDs light up as expected. 
+Connect the LED pad to the Raspberry Pi. Attach the wire from the common connected LED copper lane (-) to GND on the RPi (Lookup the pinout on the Internet). Connect each of the wires to any GPIO on the Raspberry Pi (again, lookup the RPi pinout on the Internet). Modify and run the testprogram and see if the LEDs light up as expected. 
 
 
 | The LED pad connected to the Raspberry Pi | Let there be light! |
