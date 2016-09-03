@@ -36,7 +36,7 @@ Always start counting the pin numbers on a DIL chip from the top left side on th
 - Pin 12, 13: Ground and heatsink for the chip.
 - Pin 14: Power signal to the right motor.
 - Pin 15: Logic signal, from the RPi, for controlling the right motor. 
-- Pin 16: Power supply to the logic inside the chip. _Max 5V_** Can be powered from the RPi.
+- Pin 16: Power supply to the logic inside the chip. **Max 5V** Can be powered from the RPi.
 
 The motor will turn in one direction, when the RPi signal is e.g. HIGH on pin 2 while pin 7 is LOW. The motor turns in the opporsite direction when pin state is reversed. Note that the enable pin has to be HIGH in order to drive the motors.
 
