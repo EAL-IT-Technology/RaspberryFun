@@ -42,3 +42,9 @@ __Second__, Mount the components as illustrated on the pictures below. Solder th
 __NOTE: The LED shall be properly oriented. The long connector is anode (+) and short connector is catode (-). Mount the long connector of the LED to the resistor. The other side of the resistor will be attached to the GPIO pin of the Raspberry Pi. The resistor cannot be mounted wrong.__
 ![LED pins](pics/Lysdiode-benforbindelse.png "LED Pinout")
 
+### Wires
+__Third__, prepare wires to be mounted on the veroboard. Solder connectors to the wires. Make the wires extra safe by covering the connectors by heat-srinking tubes for protecting the Raspberry Pi against short circuits etc. See illustrations below.
+
+| Prepare four wires for the LED pad |  |
+|:-------------------------------:|:-------------------------------:|
+|<img src="pics/IMG_20160902_224823.jpg" alt="Wires with connectors" rotate="90" width="400" />|<img src="pics/IMG_20160902_225504.jpg" alt="Connectors covered by heat-shrinking tube" rotate="90" width="400" /> |
