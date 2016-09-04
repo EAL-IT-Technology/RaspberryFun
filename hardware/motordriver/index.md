@@ -41,7 +41,7 @@ Always start counting the pin numbers on a DIL chip from the top left side on th
 The motor will turn in one direction, when the RPi signal is e.g. HIGH on pin 2 while pin 7 is LOW. The motor turns in the opporsite direction when pin state is reversed. Note that the enable pin has to be HIGH in order to drive the motors.
 
 ## Veroboard
-Cut a piece of veroboard. Size is not that important, but make sure theres ok space on the board. The veroboard on the right picture below has approx 22x19 holes. Initially, six copper circuits has to be cut below the motor driver chip as outlined on the left picture below. The two pins in the middle of the "chip" can be left uncutted, as those pins and the copper circuits works as a heat-sink and commond ground (-) for the chip.
+Cut a piece of veroboard. Size is not that important, but make sure theres ok space on the board. The veroboard on the right picture below has approx 22x19 holes. Initially, six copper circuits has to be cut below the motor driver chip as outlined on the left picture below. Use a drill or a sharp knife to cut the copper circuits. The two pins in the middle of the "chip" can be left uncutted, as those pins and the copper circuits works as a heat-sink and commond ground (-) for the chip.
 
 | The used veroboard | The back of the veroboard |
 |:------------------:|:-------------------------:|
@@ -103,3 +103,10 @@ When the circuit is checked and tested, attach the motor driver IC in the socket
 | The board without the IC mounted | Motor driver board with the IC mounted|
 |:-----------------------------:|:----------------------------------------:|
 |<img src="pics/IMG_20160903_224748.jpg" alt="Board without the IC mounted" width="400" />|<img src="pics/IMG_20160903_224953.jpg" alt="Motor driver board with the mounted IC" width="400" />|
+
+The board is now ready to be mounted on the robot frame. Drill some holes in the motor driver board, to ease mounting on the robot frame. But take care of makeing new short circuits! 
+
+![The Robot mounted](pics/IMG_20160903_231342.jpg "The motor driver board mounted on the robot frame")
+
+## Connecting the motordriver to the Raspberry Pi
+It is important to attach the motordriver board correct to the Raspberry Pi.
