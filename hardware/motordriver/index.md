@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Building the motordriver 
+title: Making the motordriver 
 ---
 
 This page describes, with text and pictures, the motor driver board, used for powering the two motors on the robot. The motor driver board is controlled by the Raspberry Pi. The direction of the motors can be controlled, and speed can be controlled by using a PWM signal.
@@ -12,7 +12,7 @@ This page describes, with text and pictures, the motor driver board, used for po
 * 2 terminal blocks with 7,5mm spacing (green)
 * 1 terminal block with 3.5mm spacing (blue)
 * 1 L293D motor driver IC
-* Various wires and connectors
+* Various wires and connectors and heat-shrinking tube.
 
 It is a good idea to build and solder the [LED pad](../LEDpad) before building the motor driver board.
 
@@ -58,7 +58,6 @@ Mount the small components afterwords, like the IC socket an and the two capacit
 
 Make sure to orientate the IC socket with the notch correctly. 
 
-
 | Small components added | The back of the veroboard |
 |:------------------:|:-------------------------:|
 |<img src="pics/IMG_20160903_212228.jpg" alt="The small components added" width="400" />|<img src="pics/IMG_20160903_212254.jpg" alt="Copper side of the veroboard" width="400" />|
@@ -66,3 +65,41 @@ Make sure to orientate the IC socket with the notch correctly.
 Please note, the little connection that is made between pin 8 to the copper circuit just below the socket. This is necessary to get the terminals mounted nicely afterwords.
 
 <img src="pics/IMG_20160903_212448.jpg" alt="A little connection to the next copper circuit" width="400" />
+
+Mount the three terminals, used for the motor power supply and the output to the motors. Make sure that the terminals are mounted as follows:
+
+&nbsp;&nbsp;Motor 1: Pin nr. 3 and 6 to one (green) terminal.
+
+&nbsp;&nbsp;Motor 2: Pin nr. 11 and 14 to one (green) terminal.
+
+&nbsp;&nbsp;Motor power supply to a (blue) terminal connected between pin 8 and GND (ground or minus). The little connection described above is used to connect VCC of the motor power supply to the (blue) terminal.
+
+| The veroboard after all components are mounted | The back of the veroboard |
+|:----------------------------------------------:|:-------------------------:|
+|<img src="pics/IMG_20160903_213313.jpg" alt="All components mounted" width="400" />|<img src="pics/IMG_20160903_213320.jpg" alt="Copper side of the veroboard" width="400" />|
+
+## The wires
+The motor driver circuit is attached to the Raspberry Pi by using **eight** wires. These wires are used for controlling each motors, which requires three wires pr motor. Tthe last two wires are used to power the logic inside the motordriver IC. 
+
+Prepare eight wires with connectors and heat-shrinking tubes. The color of the wires are not that important, but chose the colors of the wires so it is easy to remember the wires purpose. For example, use grey wire for the left motor, white wire for the right motor, green wire for the enable pins and red/black wires for the logic power supply. Heat-shrinking tube is used to avoid short circuits.
+
+| Eight wires with connectors | The wires with heat-shrinking tube |
+|:---------------------------:|:----------------------------------:|
+|<img src="pics/IMG_20160903_222025.jpg" alt="Wires with connectors" width="400" />|<img src="pics/IMG_20160903_223840.jpg" alt="Wires with heat-shrink tube around the connectors" width="400" />|
+
+Solder the eight wires to the motor driver board.
+
+&nbsp;&nbsp;Solder wires of the same color to the enable pins (1 and 9) on the motor driver board. 
+&nbsp;&nbsp;Solder wires of the same color to the logic pins that controls motor 1 (pin 2 and 7). 
+&nbsp;&nbsp;Solder wires of the same color to the logic pins that controls motor 2 (pin 2 and 7). 
+&nbsp;&nbsp;Solder red wire to pin 16 (VCC for logic) and black wire to ground (either pin 4,5,12 or 13).
+
+## Test the circuit
+The circuit is almost done. Visual inspect the circuit for short circuits. Use a multimeter to test the connections between the wires and the corrosponding pins on the socket and terminals and to test for short circuits.
+
+## The finished circuit 
+When the circuit is checked and tested, attach the motor driver IC in the socket on the board. The board is now ready to be attached to the GPIOs on the Raspberry Pi.  
+
+| The board without the IC mounted | Motor driver board with the IC mounted|
+|:-----------------------------:|:----------------------------------------:|
+|<img src="pics/IMG_20160903_224748.jpg" alt="Board without the IC mounted" width="400" />|<img src="pics/IMG_20160903_224953.jpg" alt="Motor driver board with the mounted IC" width="400" />|
