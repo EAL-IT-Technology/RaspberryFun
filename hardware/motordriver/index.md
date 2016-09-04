@@ -65,4 +65,4 @@ Make sure to orientate the IC socket with the notch correctly.
 
 Please note, the little connection that is made between pin 8 to the copper circuit just below the socket. This is necessary to get the terminals mounted nicely afterwords.
 
-<img src="pics/IMG_20160903_212448.jpg" alt="A little connection to the next copper circuit" width=400 />
+<img src="pics/IMG_20160903_212448.jpg" alt="A little connection to the next copper circuit" width="400" />
