@@ -9,8 +9,8 @@ This page describes, with text and pictures, the motor driver board, used for po
 * 16 pin DIL IC socket
 * 1 &mu;F capacitor (or bigger - size not that important)
 * 100 nF capacitor
-* 2 screw terminal blocks with 7,5mm spacing (green)
-* 1 screw terminal block with 5mm spacing (blue)
+* 2 screw terminal blocks (green) with 7.5 mm spacing 
+* 1 screw terminal block (block) with 5.0 mm spacing 
 * 1 L293D H-bridge IC
 * Various wires and connectors and heat-shrinking tube.
 
