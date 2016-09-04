@@ -11,7 +11,7 @@ This page describes, with text and pictures, the motor driver board, used for po
 * 100 nF capacitor
 * 2 terminal blocks with 7,5mm spacing (green)
 * 1 terminal block with 3.5mm spacing (blue)
-* 1 L293D motor driver IC
+* 1 L293D H-bridge IC
 * Various wires and connectors and heat-shrinking tube.
 
 It is a good idea to build and solder the [LED pad](../LEDpad) before building the motor driver board.
@@ -109,4 +109,11 @@ The board is now ready to be mounted on the robot frame. Drill some holes in the
 ![The Robot mounted](pics/IMG_20160903_231342.jpg "The motor driver board mounted on the robot frame")
 
 ## Connecting the motordriver to the Raspberry Pi
-It is important to attach the motordriver board correct to the Raspberry Pi.
+It is important to attach the motor driver board correct to the Raspberry Pi. The motor driver IC, L291D, contains two pins for attaching power supplies. The power supply, for the logic inside the L293D IC, is connected to pin 16 and ground. The 5V output from the Raspberry Pi can be used for this. Pin 8 is used for the motor driver supply. If this tutorial is followed, a blue terminal is mounted on this pin. Attach external batteries in the range of 5-12V to the terminal. Please notice that ground (GND or minus - different name, same meaning) is common for all the power supplies. 
+
+The wires which controls the speed and direction of the motors are attached on the GPIOs of the Raspberry Pi. The used GPIOs depends on the version of the Raspberry Pi and how the GPIOs are setup in the Python program. Lookup the comments in the Python program to see which paricular GPIOs are used for enable and motor logic. 
+
+The wirediagram below outlines one way to wire up the motor driver board with the motors and the Raspberry Pi (version 3)
+
+<img src="pics/robotwirediagram_bb.png" alt="Wiring diagram of the motordriver board" width="800" />
+
