@@ -3,7 +3,7 @@ layout: page
 title: Making the motordriver 
 ---
 
-This page describes, with text and pictures, the motor driver board, used for powering the two motors on the robot. The motor driver board is controlled by the Raspberry Pi. The direction of the motors can be controlled, and speed can be controlled by using a PWM signal.
+This page describes, with text and pictures, the motor driver board, used for powering the two motors on the robot. The motor driver board is controlled by a Raspberry Pi (RPi). The direction of the motors can be controlled by changing the state of a GPIO pins, and speed can be controlled by using a PWM signal.
 
 ## Components
 * 16 pin DIL IC socket
@@ -14,14 +14,12 @@ This page describes, with text and pictures, the motor driver board, used for po
 * 1 L293D H-bridge IC
 * Various wires and connectors and heat-shrinking tube.
 
-It is a good idea to build and solder the [LED pad](../LEDpad) before building the motor driver board.
-
 ## The circuit
-The circuit consists primary of the L293d motor driver ic, connected with the terminal blocks and a few decoupling capacitors. The L293d motordriver chip pinout is outlined in the picture below.
+The circuit is build around the L293D H-bridge, which is used to control two motors in this circuit. The L293D is connected to screw erminal blocks and a few decoupling capacitors. The pinout is outlined below.
 
 ![L293d block](pics/L293d_block.png "Block diagram of the L293d chip")
 
-Always start counting the pin numbers on a DIL chip from the top left side on the chip, next to the notch. 
+Always start counting the pin numbers on a Dual-In-Line chip (DIL) from the top left side on the chip, next to the notch. Count downwards on first side, and upwards on the opposite side. Last pin is opposite pin 1, which is also next to the notch. 
 
 - Pin 1: Pin used for enabling/disabling the motor connected to the left side of the chip. The pin can also be used for speed controlling the motor by using PWM.
 - Pin 2: Logic signal, from the RPi, for controlling the left motor.
