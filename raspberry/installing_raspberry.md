@@ -18,15 +18,13 @@ Post-installation steps
 
 1. Refresh the packages
 
-```bash
-    sudo apt-get update
-    sudo apt-get upgrade
-```
+        sudo apt-get update
+        sudo apt-get upgrade
 
 2. Change the hostname
 
 ```
-    sudo nano /etc/hostname
+sudo nano /etc/hostname
 ```
 
     change it to `raspberryXX`, where XX is your groupnumber
