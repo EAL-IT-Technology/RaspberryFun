@@ -21,19 +21,19 @@ Connecting from windows
 
     Download from [here](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 
-    ![Downloading putty]("PuTTY - Screenshot (1).jpg") 
+    ![Downloading putty](PuTTY - Screenshot (1).jpg) 
 
 
 2. Enter host name
 
-   Type in the hostname you entered on your Raspberry
+    Type in the hostname you entered on your Raspberry
 
 
 3. Saving the profile
 
-   Type in Session name and click “Save”. Select the session and click “Open” /*In Windows, in case of a security prompt – click “Yes”. It’s safe. :) /.
+    Type in Session name and click “Save”. Select the session and click “Open” /*In Windows, in case of a security prompt – click “Yes”. It’s safe. :) /.
 
-    ![Downloading putty]("PuTTY - Screenshot (2).jpg") 
+    ![Downloading putty](PuTTY - Screenshot (2).jpg) 
  
 
 4. Supplying user name
