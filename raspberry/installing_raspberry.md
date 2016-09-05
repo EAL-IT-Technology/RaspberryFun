@@ -25,24 +25,24 @@ Post-installation steps
 
 2. Change the hostname
 
-    ```
+```
     sudo nano /etc/hostname
-    ```
+```
 
     change it to `raspberryXX`, where XX is your groupnumber
 
 3. Change your password
 
-    ```bash
+```bash
     passwd
-    ```
+```
 
     (notice that we are *not* using `sudo` for this)
 
 4. Reboot
 
-    ```bash
+```bash
     sudo reboot
-    ```
+```
 
 You should now be able to access your raspberry by hostname, ie. `ping raspberryXX`.
