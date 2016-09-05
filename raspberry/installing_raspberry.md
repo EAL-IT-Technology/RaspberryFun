@@ -19,6 +19,7 @@ Post-installation steps
 1. Refresh the packages
 
     > sudo apt-get update
+    >
     > sudo apt-get upgrade
 
 2. Change the hostname
@@ -35,8 +36,6 @@ Post-installation steps
 
 4. Reboot
 
-```bash
-    sudo reboot
-```
+    >    sudo reboot
 
 You should now be able to access your raspberry by hostname, ie. `ping raspberryXX`.
