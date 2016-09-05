@@ -18,14 +18,14 @@ Post-installation steps
 
 1. Refresh the packages
 
-    ```bash
+    ```javascript
     sudo apt-get update
     sudo apt-get upgrade
     ```
 
 2. Change the hostname
 
-    ```bash
+    ```
     sudo nano /etc/hostname
     ```
 
