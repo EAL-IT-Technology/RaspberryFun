@@ -22,11 +22,13 @@ Post-installation steps
     >
     > sudo apt-get upgrade
 
+
 2. Change the hostname
 
     > sudo nano /etc/hostname
 
     change it to `raspberryXX`, where XX is your groupnumber
+
 
 3. Change your password
 
@@ -37,5 +39,6 @@ Post-installation steps
 4. Reboot
 
     >    sudo reboot
+
 
 You should now be able to access your raspberry by hostname, ie. `ping raspberryXX`.
