@@ -31,7 +31,9 @@ Connecting from windows
 
 3. Saving the profile
 
-    Type in Session name and click “Save”. Select the session and click “Open” /*In Windows, in case of a security prompt – click “Yes”. It’s safe. :) /.
+    Type in Session name and click “Save”. Select the session and click “Open” 
+
+    In Windows, in case of a security prompt – click “Yes”.
 
     ![Downloading putty](PuTTY - Screenshot (2).jpg) 
  
