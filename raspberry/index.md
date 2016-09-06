@@ -11,6 +11,12 @@ Basic installation
 We use raspbarian that is officially supported. Go [here](installing_raspberry.html) for notes.
 
 
+Connecting
+-------------
+
+Go [here](connecting.html) for guide.
+
+
 GPIO
 ------
 
