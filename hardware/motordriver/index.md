@@ -89,7 +89,7 @@ Solder the eight wires to the motor driver board.
 
 &nbsp;&nbsp;Solder wires of the same color to the enable pins (1 and 9) on the motor driver board. 
 &nbsp;&nbsp;Solder wires of the same color to the logic pins that controls motor 1 (pin 2 and 7). 
-&nbsp;&nbsp;Solder wires of the same color to the logic pins that controls motor 2 (pin 2 and 7). 
+&nbsp;&nbsp;Solder wires of the same color to the logic pins that controls motor 2 (pin 10 and 15).
 &nbsp;&nbsp;Solder red wire to pin 16 (VCC for logic) and black wire to ground (either pin 4,5,12 or 13).
 
 ## Test the circuit
