@@ -13,7 +13,7 @@ To test the GPIO and the motor, use the [Raspbery_GPIO code](https://github.com/
     > cd Raspberry_GPIO
 
 2. Check the GPIO layout of your raspberry
-    See [here](/raspberry)
+    See [here]({{ site.baseurl }}/raspberry)
 
 3. Test the pins
     There are three test programs: `togglePin.py`, `readPin.py` and `runMotor.py`.
