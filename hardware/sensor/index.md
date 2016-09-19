@@ -5,4 +5,4 @@ title: Sensor
 
 ## The circuit
 
-![Sensor Schematic](pics/sensor.png "Sensor Schematic")
+![Sensor Schematic](pics/Sensor.png "Sensor Schematic")
