@@ -31,9 +31,10 @@ Be careful to mount the components right and in the right places. The result sho
 <img src="pics/IMG_20151121_173625.jpg" alt="Components mounted on the PCB" width="400" />
 
 How to mount the components on the PCB is outlined below. Note that blue lines means buttom layer. 
-| Component placement with wires | Component placements as the PCB looks|
+
+| Components placement | The PCB |
 |:--------------------:|:---------------------------:|
-|<img src="pics/IMG_20151121_173625.png" alt="Components placement" width="400" />|<img src="pics/IMG_20151121_173626.png" alt="Components placed on PCB" width="400" /> 
+|<img src="pics/IMG_20151121_173625.png" alt="Component placement" width="400" />|<img src="pics/IMG_20151121_173626.png" alt="Components placed on PCB" width="400" /> 
 
 Note that three vias, connections between top and buttom layer, has to be added to the PCB as indicated below.
 ![Adding vias](pics/2WD Sensor PCB Base.png)
