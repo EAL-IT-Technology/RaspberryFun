@@ -8,6 +8,7 @@ title: Sensor
 The sensor circuit can either be build on a piece of veroboard or on a milled PCB.  
 
 The components needed:
+
 * 10k&Omega; resistor (x3)
 * 68&Omega; resistor (Please note, that this resistor replaces the 120&Omega resistor on the schematic).
 * 10k&Omega trimresistor (The blue resistor with the screw terminal)
