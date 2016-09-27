@@ -11,7 +11,7 @@ The components needed:
 
 * 10k&Omega; resistor (x3)
 * 68&Omega; resistor (Please note, that this resistor replaces the 120&Omega resistor on the schematic).
-* 10k&Omega trimresistor (The blue resistor with the screw terminal)
+* 10k&Omega; trimresistor (The blue resistor with the screw terminal)
 * 100 nF capacitor
 * 15 pF capacitor
 * TCRT5000 lightsensor
@@ -36,7 +36,7 @@ How to mount the components on the PCB is outlined below. Note that blue lines m
 |:--------------------:|:---------------------------:|
 |<img src="pics/IMG_20151121_173625.png" alt="Component placement" width="400" />|<img src="pics/IMG_20151121_173626.png" alt="Components placed on PCB" width="400" /> 
 
-Note that three vias, connections between top and buttom layer, has to be added to the PCB as indicated below.
+Note that four vias, connections between top and buttom layer, has to be added to the PCB as indicated below.
 <img src="pics/2WD Sensor PCB Base.png" alt="Vias" width="600" />
 
 Test the built PCB by using the microscope and multimeter before attaching power to the circuit. After attaching power, measure whether output turns high or low when the sensor is placed below either a black or white surface.
