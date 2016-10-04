@@ -21,4 +21,5 @@ sections:
 - { title: Hardware, path: /hardware }
 - { title: Code, path: /code }
 - { title: Raspberry, path: /raspberry }
+- { title: Misc, path: /misc }
 
