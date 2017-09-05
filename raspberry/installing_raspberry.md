@@ -16,12 +16,9 @@ Start by downloading the latest [Raspbian Jessie](https://downloads.raspberrypi.
 Post-installation steps
 ------------------------
 
-1. Refresh the packages
+1. Enable SSH
 
-    > sudo apt-get update
-    >
-    > sudo apt-get upgrade
-
+    Follow [this guide](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
 2. Change the hostname
 
