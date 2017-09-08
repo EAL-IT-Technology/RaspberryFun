@@ -113,5 +113,5 @@ The wires which controls the speed and direction of the motors are attached on t
 
 The wirediagram below outlines one way to wire up the motor driver board with the motors and the Raspberry Pi (version 3)
 
-<img src="pics/robotwirediagram_bb.png" alt="Wiring diagram of the motordriver board" width="800" />
+<img src="pics/motordrivesh.png" alt="Wiring diagram of the motordriver board" width="800" />
 
