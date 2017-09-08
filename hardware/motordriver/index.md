@@ -115,3 +115,9 @@ The wirediagram below outlines one way to wire up the motor driver board with th
 
 <img src="pics/motordrivesh.png" alt="Wiring diagram of the motordriver board" width="800" />
 
+## PCB layout for the motordrive board
+In the future a PCB will be provided the layout is seen below. Due to manufacturing the PCB can be made very small and the space optimized.
+<img src="pics/motordrivesh2.png" alt="Wiring diagram of the motordriver board" width="800" />
+
+
+
