@@ -8,7 +8,7 @@ In the project we use a raspberry for the control part.
 Basic installation
 --------------------
 
-We use raspbarian that is officially supported. Go [here](installing_raspberry.html) for notes.
+We use raspbian that is officially supported. Go [here](installing_raspberry.html) for notes.
 
 
 Connecting
